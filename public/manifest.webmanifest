@@ -1,0 +1,16 @@
+{
+    "name": "DocChain",
+    "short_name": "NextApp",
+    "description": "DocChain is a blockchain-powered document verification platform built on Hedera Hashgraph. Verify certificates, diplomas, and official documents instantly via QR code scanning. Immutable proof, zero fraud, 2-second verification. Trusted by institutions across Madagascar..",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#317EFB",
+    "icons": [
+        {
+            "src": "/icons/icon-doc-chaine.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
