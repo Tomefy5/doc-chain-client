@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DocChain",
   description: "document verification, blockchain certificates, Hedera Hashgraph, diploma verification, certificate authentication, QR code verification, Madagascar blockchain, document fraud prevention, immutable records, HCS blockchain",
-  manifest: "/manifest.webmanifest"
+  manifest: "/manifest.webmanifest",
 };
 
 export default function RootLayout({
@@ -25,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Ceci empêche le navigateur de chercher favicon.ico */}
+        <link rel="icon" href="data:," />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -8,8 +8,33 @@
     "theme_color": "#317EFB",
     "icons": [
         {
-            "src": "/icons/icon-doc-chaine.png",
-            "sizes": "192x192",
+            "src": "/icons/100.png",
+            "sizes": "100x100",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/172.png",
+            "sizes": "172x172",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/1024.png",
+            "sizes": "1024x1024",
             "type": "image/png"
         }
     ]
