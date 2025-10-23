@@ -187,12 +187,7 @@
   }
 }
 
-/* ================================
-   🧱 Base globale
-================================ */
-body {
-  @apply bg-surface text-on-surface antialiased;
-}
+
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -272,6 +267,6 @@ body {
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
   }
 }
