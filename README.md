@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DocChain Frontend
 
-## Getting Started
+## 👋 Présentation du projet
 
-First, run the development server:
+**DocChain** est une solution blockchain pour l’émission et la vérification sécurisée de documents certifiés. La version MVP permet aux organisations émettrices (universités, entreprises, ONG) d’émettre des documents immuables certifiés via Hedera et aux vérificateurs publics d’effectuer une vérification simple et rapide via QR code ou code unique.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Ce repo contient la partie frontend, construit avec Next.js, TypeScript, TailwindCSS et intégrant tout le nécessaire pour une expérience utilisateur fluide, notamment pour l’émission, la gestion, et la vérification des documents.
+
+---
+
+## 📦 Technologies principales
+
+- Next.js (App Router)
+- TypeScript
+- TailwindCSS
+- React (hooks, composants)
+- html5-qrcode (scan QR)
+- react-qr-code (génération QR)
+- react-hot-toast (notifications)
+- PWA (manifest + service worker)
+
+---
+
+## 🔧 Setup & installation
+
+### Prérequis
+
+- Node.js >= 18
+- npm / yarn
+
+### Installation
+
+```
+git clone https://github.com/Tomefy5/doc-chain-client
+cd doc-chain-client
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Lancer le projet
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+L'application sera disponible sur [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Conventions de contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Nous suivons une démarche structurée pour garantir la qualité :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Processus
 
-## Deploy on Vercel
+- Forkez le repo si vous souhaitez contribuer.
+- Créez une branche à partir de `main` pour votre feature ou correction (`feature/nom`, `fix/nom`)
+- Faites des commits clairs, avec la convention **Conventional Commits** (ex: `feat: ajout page de vérification QR`)
+- Ouvrez une PR pour review
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Règles de code
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Respectez la convention **TS strict**.
+- Utilisez Tailwind pour le style, privilégiez la réutilisabilité avec composants.
+- Commentez si nécessaire, mais privilégiez le code clair.
+
+
+---
+
+## 📚 Documentation & liens utiles
+
+- [Guide de développement Next.js](https://nextjs.org/docs) — Guide officiel pour la configuration, les fonctionnalités avancées et les bonnes pratiques avec Next.js.
+
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/) — Documentation officielle pour maîtriser TypeScript, ses types et ses fonctionnalités.
+
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) — Documentation officielle pour utiliser Tailwind, créer un design cohérent et personnalisé.
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html) — Resources pour comprendre React, composants, hooks, gestion d’état.
+
+- [html5-qrcode](https://github.com/mebjas/html5-qrcode/wiki) — Guide pour implémenter la lecture de QR codes dans le navigateur.
+
+- [react-qr-code](https://github.com/rosskhanas/react-qr-code) — Documentation pour générer des QR codes dans une application React.
+
+- [react-hot-toast](https://react-hot-toast.com/docs) — Guide pour l’intégration et l’utilisation du système de notifications toast.
+
+- [Progressive Web Apps (PWA)](https://web.dev/progressive-web-apps/) — Ressources et standards pour rendre ton app installable, performante, offline-ready.
+
+- [shadcn/ui Documentation](https://ui.shadcn.com/docs)  
+  Documentation officielle de la bibliothèque de composants React basés sur Radix UI, avec un design system moderne, accessible, et hautement personnalisable.
+
+
+Ces liens dirigeront toute ton équipe vers la documentation officielle pour une compréhension profonde et efficace des technologies utilisées dans ton projet.
+
+---
+
+## 📞 Support & contact
+
+Pour toute question ou contribution, ouvrez une issue ou contactez tomefyandrytsiresy@gmail.com.
+
+---
+
+## License
+
+Ce projet est sous licence MIT. Voir [LICENSE](LICENSE) pour plus d’informations.
+
+---
+
+**Merci de votre contribution et bon développement !**
